@@ -23,6 +23,7 @@ class RoundRectButton: UIButton {
     }
 
     required init(color: UIColor, titleColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, titleString : String, size: CGFloat, img: UIImage) {
+        //test comment
         super.init(frame: .zero)
         translatesAutoresizingMaskIntoConstraints = false
         self.layer.cornerRadius = 10
